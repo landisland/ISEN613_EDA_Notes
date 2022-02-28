@@ -1,4 +1,4 @@
-# ISEN613 EDA (Engineering Data Analysis)
+# LR LDA QDA KNN
 
 [toc]
 
@@ -104,3 +104,4 @@ We can use k-fold cross validation.
 ### When a linear boundary does not work, should we choose QDA or KNN?
 
 QDA serves as a compromise between the non-parametric KNN method and the linear LDA and logistic regression approaches. Since QDA assumes a quadratic decision boundary, it can accurately model a wider range of problems than can the linear methods. Though **not as flexible** as KNN, QDA can perform better in the presence of **a limited number of training observations** because it does make some assumptions about the form of the decision boundary.
+
